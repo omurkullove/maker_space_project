@@ -1,0 +1,85 @@
+.catalog {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+   margin-top: 100px;
+   font-family: 'Inter', sans-serif;
+   color: white;
+
+   .eventBlock {
+      display: flex;
+      padding: 10px;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Inter', sans-serif;
+      width: 100%;
+
+      .event1 {
+         height: 700px;
+         width: 600px;
+         border-radius: 25px;
+         background: url('../../assets/event1.svg');
+         background-size: cover;
+
+         display: flex;
+         align-items: end;
+
+         padding: 30px;
+
+         transition: 0.3s ease-in-out;
+         cursor: pointer;
+
+         &:hover {
+            transform: scale(1.025);
+         }
+      }
+
+      .event2 {
+         display: flex;
+         flex-direction: column;
+         gap: 35px;
+         margin-left: 40px;
+
+         .event2_1 {
+            height: 330px;
+            width: 700px;
+            border-radius: 25px;
+            background: url('../../assets/event2.svg');
+            background-size: cover;
+
+            display: flex;
+            align-items: end;
+
+            padding: 30px;
+
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+               transform: scale(1.025);
+            }
+         }
+
+         .event2_2 {
+            height: 330px;
+            width: 700px;
+            border-radius: 25px;
+            background: url('../../assets/event3.svg');
+
+            background-size: cover;
+            display: flex;
+            align-items: end;
+
+            padding: 30px;
+
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+               transform: scale(1.025);
+            }
+         }
+      }
+   }
+}

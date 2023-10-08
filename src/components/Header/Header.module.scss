@@ -1,0 +1,29 @@
+nav {
+   display: flex;
+   justify-content: space-between;
+   padding-inline: 50px;
+   align-items: center;
+
+   .logo {
+      width: 292px;
+      height: 116px;
+   }
+   background-color: #75b3d2;
+
+   .navBlock {
+      display: flex;
+      align-items: center;
+      gap: 35px;
+      font-family: 'Khand', sans-serif;
+      a {
+         text-decoration: none;
+         color: white;
+         font-size: 25px;
+         cursor: pointer;
+
+         &:hover {
+            text-decoration: underline;
+         }
+      }
+   }
+}
